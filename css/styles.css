@@ -1,0 +1,399 @@
+html {
+  scroll-behavior: smooth;
+  background: #0a0a0a;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+}
+
+main {
+  background-color: #0a0a0a;
+  padding-top: 0;
+}
+
+/* Navbar styles */
+.navbar-brand.chef-name {
+  font-size: 1.5rem;
+  line-height: 1;
+  margin: 0;
+  padding: 2px 0;
+}
+
+/* Links del menú */
+.navbar {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.navbar-nav {
+  gap: 1.8rem; 
+}
+.navbar-nav .nav-link {
+  color: white !important;
+  font-size: 1.1rem;
+  padding: 0.3rem 0.6rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #b3b3b3 !important;
+}
+
+/* Dropdown */
+.dropdown-menu-dark .dropdown-item:hover {
+  background-color: #b3b3b3;
+  color: #000 !important;
+}
+
+/* Toggler (hamburguesa) blanco siempre */
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+.navbar-toggler-icon {
+  filter: invert(1); /* hace el ícono blanco */
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    gap: 0.25rem; 
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.25rem 0; 
+}
+}
+
+/* Section styles */
+.section.hero {
+  margin-top: 60px;
+  padding-top: 38px;
+}
+
+.section {
+  margin-top: 10px;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  min-height: 60vh;
+  scroll-margin-top: 80px;
+  background-color: #0a0a0a;
+}
+
+.title-section h1 {
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 24px 0 16px 0;
+    min-height: 40vh;
+    margin-top: 20px;
+  }
+  .title-section h1 {
+    color: #fff;
+  }
+}
+
+/* Hero superpuesto */
+.hero-img-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 450px;
+}
+
+.hero-img-container .port-img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+.hero-img-container .portfolio-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 6px 0 6px 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 2;
+  text-align: center;
+}
+
+.section p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #eaeaea;
+  margin: 0 0 15px 0; /* mismo margen para todas */
+  font-family: Arial, sans-serif;
+}
+
+/* About Me section styles */
+.about-me-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.about-img {
+  flex: 1;
+  overflow: hidden;
+}
+
+.about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ocupa todo el contenedor */
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+}
+
+.about-text-center {
+  flex: 1;
+  text-align: center;
+  color: #eaeaea;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  padding: 0 20px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .about-me-container {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .about-text-center {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .about-img img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* My Cuisine section styles */
+.cuisine-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* centra verticalmente */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto; /* altura automática según el contenido */
+}
+
+.cuisine-img-large {
+  flex: 1;
+  overflow: hidden; /* recorta cualquier exceso */
+}
+
+.cuisine-img-large img {
+  width: 100%;
+  max-height: 500px; /* límite visual de la imagen */
+  object-fit: cover; /* mantiene proporción y ocupa el contenedor */
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+}
+
+.cuisine-text-center {
+  flex: 1;
+  text-align: center;
+  color: #eaeaea;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .cuisine-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .cuisine-img-large img {
+    width: 100%;
+    height: auto; /* altura proporcional en mobile */
+  }
+
+  .cuisine-text-center {
+    text-align: center;
+    padding: 0 10px;
+  }
+}
+
+/* Carousel styles */
+.carousel-inner {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  text-align: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 600px;
+}
+
+.carousel-item img {
+  width: 100%;
+  max-height: 600px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.carousel-inner::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0a0a0a;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+/* Media queries para mobile */
+@media (max-width: 768px) {
+  .carousel-inner {
+    max-width: 99vw;
+  }
+  .carousel-item img {
+    max-height: 320px;
+  }
+}
+
+/* Contact Card styles */
+.card {
+  background-color: #0a0a0a;
+  padding: 0;
+}
+
+.img-fluid {
+  border-radius: 12px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 425px;
+  background-color: #0a0a0a;
+  padding: 0;
+}
+
+.col-md-8 {
+  background-color: #0a0a0a;
+}
+
+.card-title {
+  text-align: left;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.contact-details {
+  margin-top: auto;
+}
+
+.contact-details p {
+  text-align: left;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.card-text {
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+/* Ajustes responsive para mobile */
+@media (max-width: 768px) {
+  .card .row {
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: stretch;
+  }
+
+  .card .col-md-8,
+  .card .col-md-4 {
+    flex: 1;
+    max-width: 50%;
+  }
+
+  .card-body {
+    min-height: auto;
+    padding: 10px;
+    background-color: #0a0a0a;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact-details {
+    padding-top: 200px;
+  }
+
+  .work-with-me .contact-details p {
+    font-size: 0.8rem;
+    line-height: 1.3;
+    margin: 3px 0;
+  }
+
+  .card-title {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .card-text {
+    text-align: left;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #fff;
+  }
+
+  .card img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+}
+
+/* Footer styles */
+footer {
+  background-color: #212529;
+  color: #eaeaea;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0;
+  color: #fff;
+}

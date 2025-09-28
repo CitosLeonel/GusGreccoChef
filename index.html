@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gustavo Grecco - Private Chef Portfolio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Arial&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark flex-lg-column"
+      >
+        <div class="container-fluid flex-lg-column">
+          <div
+            class="d-flex w-100 justify-content-between align-items-center d-lg-none"
+          >
+            <!-- Hamburguesa -->
+            <button
+              class="navbar-toggler me-2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Nombre centrado en mobile -->
+            <a class="navbar-brand mx-auto chef-name" href="#"
+              >Chef Gus Grecco</a
+            >
+          </div>
+
+          <!-- Nombre centrado en desktop -->
+          <a class="navbar-brand chef-name d-none d-lg-block mx-auto" href="#"
+            >Chef Gus Grecco</a
+          >
+
+          <!-- Menú -->
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#cuisine">My Cuisine</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Photos
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark text-center"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#crudo">Crudo</a></li>
+                  <li><a class="dropdown-item" href="#pasta">Pasta</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#family">Family Style</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#hamptons">The Hamptons</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#work">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero/Home -->
+    <main>
+      <section id="home" class="section hero">
+        <div class="hero-img-container">
+          <img
+            src="./img/portada-cheff.png"
+            alt="Foto de portada: cheff Gustavo Grecco"
+            class="port-img"
+          />
+          <div class="portfolio-text">
+            <h2>PORTFOLIO</h2>
+            <p>Private Chef</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me -->
+      <section id="about" class="section about-me-section">
+        <div class="title-section">
+          <h1>ABOUT ME</h1>
+        </div>
+
+        <div class="about-me-container">
+          <!-- Foto izquierda -->
+          <div class="about-img left">
+            <img src="./img/about-me/about_me1.jpg" alt="about me 1" />
+          </div>
+
+          <!-- Texto centrado -->
+          <div class="about-text-center">
+            <p>
+              Argentinian accomplished chef, 15+ years experience with a solid
+              background in high-end and michelin rated restaurants. Privacy
+              oriented profile, strong creativity focus, both in high executive
+              cooking and family style. Passion and excellence my keys for
+              success.
+            </p>
+          </div>
+
+          <!-- Foto derecha -->
+          <div class="about-img right">
+            <img src="./img/about-me/about_me2.jpg" alt="about me 2" />
+          </div>
+        </div>
+      </section>
+
+      <!-- My Cuisine -->
+      <section id="cuisine" class="section cuisine-section">
+        <div class="title-section">
+          <h1>MY CUISINE</h1>
+        </div>
+
+        <div class="cuisine-container">
+          <!-- Texto centrado -->
+          <div class="cuisine-text-center">
+            <p>
+              “Seasonality culture and traveling have made the cook I am today.”
+            </p>
+            <p>
+              Due to my family heritage in Argentina and Italy, meat and pasta
+              are beloved in my repertory; due to my trips and training in South
+              America, Europe and Asia, I've achieved acknowledge in several
+              cuisines as Peruvian, Italian, Spanish and Thai.
+            </p>
+            <p>
+              Based on total seasonality, Mediterranean driven and flavour
+              packed like in Asia and South America, my cuisine is tasteful as
+              it is delicate.
+            </p>
+          </div>
+
+          <!-- Imagen -->
+          <div class="cuisine-img-large">
+            <img src="./img/my-cuisine/my_cuisine.jpg" alt="my cuisine" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Crudo -->
+      <section id="crudo" class="section gallery-section">
+        <div class="title-section">
+          <h1>CRUDO</h1>
+        </div>
+
+        <div
+          id="carouselCrudo"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="img-carousel"
+                src="./img/crudo/crudo1.jpg"
+                alt="crudo 1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-carousel d-block"
+                src="./img/crudo/crudo2.jpg"
+                alt="crudo 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-carousel d-block"
+                src="./img/crudo/crudo3.jpg"
+                alt="crudo 3"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselCrudo"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselCrudo"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Pasta -->
+      <section id="pasta" class="section gallery-section">
+        <div class="title-section">
+          <h1>PASTA</h1>
+        </div>
+
+        <div
+          id="carouselPasta"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="img-carousel d-block"
+                src="./img/pasta/pasta1.jpg"
+                alt="pasta 1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-carousel d-block"
+                src="./img/pasta/pasta2.jpg"
+                alt="pasta 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-carousel d-block"
+                src="./img/pasta/pasta3.jpg"
+                alt="pasta 3"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-carousel"
+                src="./img/pasta/pasta4.jpg"
+                alt="pasta 4"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselPasta"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselPasta"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Family Style -->
+      <section id="family" class="section gallery-section">
+        <div class="title-section">
+          <h1>FAMILY STYLE</h1>
+        </div>
+
+        <div
+          id="carouselFamily"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="img-carousel d-block"
+                src="./img/family/family1.jpg"
+                alt="family 1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-carousel d-block"
+                src="./img/family/family2.jpg"
+                alt="family 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-carousel d-block"
+                src="./img/family/family3.jpg"
+                alt="family 3"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-carousel d-block"
+                src="./img/family/family4.jpg"
+                alt="family 4"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselFamily"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselFamily"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- The Hamptons -->
+      <section id="hamptons" class="section hamptons-bg">
+        <div class="title-section">
+          <h1>THE HAMPTONS</h1>
+        </div>
+        <div>
+          <p>SERVING A FAMILY OF 6</p>
+        </div>
+
+        <div>
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </div>
+
+        <div
+          id="carouselHamptons"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="img-carousel d-block"
+                src="./img/hamptons/hamptons1.jpg"
+                alt="humptons 1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-carousel d-block"
+                src="./img/hamptons/hamptons2.jpg"
+                alt="humptons 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-carousel d-block"
+                src="./img/hamptons/hamptons3.jpg"
+                alt="humptons 3"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-carousel d-block"
+                src="./img/hamptons/hamptons4.jpg"
+                alt="humptons 4"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselHamptons"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselHamptons"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Work With Me -->
+      <section id="work" class="section work-with-me">
+        <div
+          class="card border-0 shadow-none mb-3 mx-auto d-block"
+          style="max-width: 900px"
+        >
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h1 class="card-title">Work with me...</h1>
+                <div class="contact-details">
+                  <p>
+                    <a href="https://wa.me/34647251126" target="_blank"
+                      >+ 34 647 25 11 26</a
+                    >
+                  </p>
+                  <p>
+                    <a href="mailto:gustavogrecco81@gmail.com"
+                      >gustavogrecco81@gmail.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="./img/contact/img-contact.jpg"
+                class="img-fluid"
+                alt="Gustavo Grecco Contact"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Básico -->
+    <footer>
+      <p>&copy; <span id="year"></span> Gustavo Grecco. All rights reserved.</p>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
