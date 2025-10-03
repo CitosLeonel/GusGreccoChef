@@ -1,9 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
   background: #f2ebe2;
 }
 
 body {
+ 
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -11,6 +16,7 @@ body {
 }
 
 main {
+ 
   background-color: #f2ebe2;
   padding-top: 0;
 }
@@ -68,8 +74,8 @@ main {
 }
 
 /* Hero styles */
-/* section 1 */
-.section1 {
+/* profile section */
+.hero-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -77,8 +83,8 @@ main {
   gap: 2rem;
   padding: 2rem 2rem 0 2rem;
   box-sizing: border-box;
-  margin-left: 200px;
-  margin-right: 200px;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .hero-img-container1 {
@@ -97,12 +103,16 @@ main {
   flex: 1 1 50%;
   text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  background: #f2ebe2;
+  gap: 1rem;
 }
 
+h1 {
+  color:#393d42;
+}
 .text1 {
   max-width: 500px;
   color: #393d42;
@@ -110,8 +120,8 @@ main {
   line-height: 1.6;
 }
 
-/* section 2 */
-.section2 {
+/* cuisine section */
+.cuisine-roots-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -119,8 +129,8 @@ main {
   gap: 2rem;
   padding: 0 2rem 2rem 2rem;
   box-sizing: border-box;
-  margin-left: 200px;
-  margin-right: 200px;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .text2-container {
@@ -145,23 +155,21 @@ main {
 
 .hero-img-container2 img {
   width: 100%;
-  height: auto;
+  height: 100%;
   max-height: 600px;
-  object-fit: contain;
-  
+  object-fit: cover;
 }
 
-/* section 3 */
-.section3 {
-  margin-left: 200px;
-  margin-right: 200px;
+/* services section */
+.services-section {
   display: flex;
   justify-content: center; 
   align-items: center;     
   padding: 4rem 2rem;      
-  text-align: center;      
-  background: #f2ebe2;     
+  text-align: center;          
   box-sizing: border-box;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .text3-container {
@@ -183,8 +191,8 @@ main {
 
 /* Responsive ajustes para mobile */
 @media (max-width: 768px) {
-  /* Section 1 */
-  .section1 {
+  /* Profile section */
+  .hero-section {
     flex-direction: column;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -202,8 +210,8 @@ main {
     object-fit: cover;
   }
 
-  /* Section 2 */
-  .section2 {
+  /* Cuisine section */
+  .cuisine-roots-section {
     flex-direction: column;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -221,8 +229,8 @@ main {
     object-fit: cover;
   }
 
-  /* Section 3 */
-  .section3 {
+  /* Services section */
+  .services-section {
     padding: 2rem 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -246,12 +254,91 @@ main {
   }
 }
 
+/* Contact Form styles */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 80px;
+  padding: 40px 100px;
+  color: #fff;
+  text-align: center;
+}
+
+.text-container {
+  margin: 2rem 0 2rem 0;  
+} 
+
+.contact-form-title {
+  color: #393d42;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.contact-form-text {
+  color: #393d42;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px; 
+}
+
+.contact-form {
+  border: 2px solid #393d42;
+  box-sizing: border-box;
+  width: 800px;
+  margin: 0 auto;
+  color: #393d42;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-form p {
+  margin-bottom: 20px; /* Añade espacio entre cada campo del formulario */
+}
+
+.contact-form label {
+  display: block; /* Hace que la etiqueta ocupe su propia línea */
+  text-align: left; /* Alinea el texto de la etiqueta a la izquierda */
+  margin-bottom: 8px; /* Crea un pequeño espacio sobre la caja de texto */
+  font-weight: bold; /* Opcional: hace el texto más legible */
+  color: #393d42;
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block; /* Asegura que el input también sea un bloque */
+  width: 100%; /* Hace que la caja ocupe todo el ancho del formulario */
+  padding: 10px; /* Añade espacio interno para que el texto no pegue a los bordes */
+  box-sizing: border-box; /* Asegura que el padding no altere el ancho total */
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Opcional: redondea las esquinas */
+}
+
+.form-row {
+  display: flex;
+  gap: 20px; 
+}
+
+.form-row p {
+  flex: 1;
+  margin-bottom: 20px;
+}
 
 /* Footer styles */
 .footer {
   background-color: #c7b394;
   color: #fff;
-  padding: 20px 40px 20px 40px;
+  padding: 20px 100px 20px 100px;
   font-family: Arial, sans-serif;
 }
 
