@@ -295,7 +295,7 @@ h1 {
 .contact-form {
   border: 2px solid #393d42;
   box-sizing: border-box;
-  width: 900px;
+  width: 800px;
   margin: 0 auto;
   color: #393d42;
   text-align: center;
@@ -322,6 +322,16 @@ h1 {
   box-sizing: border-box; /* Asegura que el padding no altere el ancho total */
   border: 1px solid #ccc;
   border-radius: 4px; /* Opcional: redondea las esquinas */
+}
+
+.form-row {
+  display: flex;
+  gap: 20px; 
+}
+
+.form-row p {
+  flex: 1;
+  margin-bottom: 20px;
 }
 
 /* Footer styles */
