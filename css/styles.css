@@ -293,7 +293,7 @@ h1 {
 }
 
 .contact-form {
-  border: 2px solid #393d42;
+  border: 2px solid #c2c2c2;
   box-sizing: border-box;
   width: 800px;
   margin: 0 auto;
@@ -303,7 +303,7 @@ h1 {
 }
 
 .contact-form p {
-  margin-bottom: 20px; /* Añade espacio entre cada campo del formulario */
+  margin-bottom: 20px; 
 }
 
 .contact-form label {
@@ -320,7 +320,7 @@ h1 {
   width: 100%; /* Hace que la caja ocupe todo el ancho del formulario */
   padding: 10px; /* Añade espacio interno para que el texto no pegue a los bordes */
   box-sizing: border-box; /* Asegura que el padding no altere el ancho total */
-  border: 1px solid #ccc;
+  border: 1px solid #c2c2c2;
   border-radius: 4px; /* Opcional: redondea las esquinas */
 }
 
@@ -332,6 +332,35 @@ h1 {
 .form-row p {
   flex: 1;
   margin-bottom: 20px;
+}
+
+.checkbox-group {
+  display: flex; 
+  align-items: center;
+  gap: 10px; 
+  text-align: left; 
+  margin-bottom: 20px; 
+}
+
+.sms-consent-text {
+  font-size: 0.9rem; 
+  color: #393d42;
+}
+
+@media (max-width: 768px) {
+
+  .contact-section {
+    margin: 20px; 
+    padding: 20px; 
+  }
+  .contact-form {
+    width: 100%; 
+    padding: 10px; 
+  }
+
+  .form-row {
+    flex-direction: column; 
+  }
 }
 
 /* Footer styles */
@@ -377,6 +406,7 @@ h1 {
 .footer-col h3 {
   margin-bottom: 15px;
   font-size: 18px;
+  text-decoration: underline;
 }
 
 .footer-col ul {
@@ -397,4 +427,16 @@ h1 {
 
 .footer-bottom a {
   margin: 0 5px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 20px;
+    text-align: center;
+  }
+
+  .footer-col-right {
+    align-items: center;
+    text-align: center;
+  }
 }
