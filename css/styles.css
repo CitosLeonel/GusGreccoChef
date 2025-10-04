@@ -398,3 +398,15 @@ h1 {
 .footer-bottom a {
   margin: 0 5px;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 20px;
+    text-align: center;
+  }
+
+  .footer-col-right {
+    align-items: center;
+    text-align: center;
+  }
+}
