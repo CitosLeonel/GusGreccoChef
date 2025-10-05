@@ -4,21 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gustavo Grecco - Private Chef Portfolio</title>
-
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <!-- Bootstrap Icon -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Swiper JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
       rel="stylesheet"
     />
+    <!-- CSS Styles -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -118,8 +127,41 @@
             cooking is as flavorful as it is refined, warm and depth.
           </p>
         </div>
-        <div class="hero-img-container2">
-          <img src="./img/hero/erizos_1.webp" alt="Erizos" class="port-img2" />
+
+        <!-- Contenedor principal del Slider -->
+        <div class="swiper">
+          <!-- Wrapper requerido -->
+          <div class="swiper-wrapper">
+            <!-- Diapositivas -->
+            <div class="swiper-slide">
+              <img src="/img/swiper/cigala.webp" alt="plato de Cigala" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/swiper/erizos.webp" alt="Plato de Erizos" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/swiper/habitas.webp" alt="Plato de habitas" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/img/swiper/pasta_ricci.webp"
+                alt="Plato de pasta Ricci"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/img/swiper/trompeta_con_tirabeques.webp"
+                alt="Plato de Trompeta con tirabeques"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/swiper/virrey.webp" alt="Virrey emplatado" />
+            </div>
+          </div>
+
+          <!-- Si necesitamos botones de navegación (flechas) -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
       </section>
 
@@ -195,9 +237,14 @@
       </div>
     </footer>
 
+    <!-- Script Bootstrap --->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script Swiper Js --->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!-- Script Date Picker Js-->
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

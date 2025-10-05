@@ -1,5 +1,5 @@
-document.addEventListener('DOMContentLoaded', function () {
-  // ---- Teléfono ----
+document.addEventListener("DOMContentLoaded", function () {
+  // ---- Teléfono ---- //
   const phoneInputField = document.querySelector("#phone");
   if (phoneInputField) {
     const phoneInput = window.intlTelInput(phoneInputField, {
@@ -9,14 +9,28 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // ---- Fechas (Flatpickr) ----
+  // ---- Fechas (Flatpickr) ---- //
   const dateInput = document.querySelector("#preferred-dates");
   if (dateInput) {
     flatpickr(dateInput, {
-      mode: "range",            // setear rango
-      dateFormat: "d/m/Y",      // setear formato de fecha (ej: 05/05/2025)
-      minDate: "today",         // Evita seleccionar fechas pasadas
-      locale: "en"              // setear idioma
+      mode: "range",
+      dateFormat: "d/m/Y",
+      minDate: "today",
+      locale: "en",
     });
   }
+
+  // ---- Swiper JS ---- //
+  const swiper = new Swiper(".swiper", {
+    // Parámetros opcionales
+    direction: "horizontal",
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
 });
