@@ -296,6 +296,12 @@ h1 {
   }
 }
 
+@media (max-width: 400px) {
+  .hero-section {
+    margin-top: 12rem; 
+  }
+}
+
 /* Contact Form styles */
 .contact-section {
   display: flex;
