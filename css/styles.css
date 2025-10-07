@@ -355,21 +355,21 @@ h1 {
 }
 
 .contact-form label {
-  display: block; /* Hace que la etiqueta ocupe su propia línea */
-  text-align: left; /* Alinea el texto de la etiqueta a la izquierda */
-  margin-bottom: 8px; /* Crea un pequeño espacio sobre la caja de texto */
-  font-weight: bold; /* Opcional: hace el texto más legible */
+  display: block; 
+  text-align: left; 
+  margin-bottom: 8px; 
+  font-weight: bold; 
   color: #393d42;
 }
 
 .contact-form input,
 .contact-form textarea {
-  display: block; /* Asegura que el input también sea un bloque */
-  width: 100%; /* Hace que la caja ocupe todo el ancho del formulario */
-  padding: 10px; /* Añade espacio interno para que el texto no pegue a los bordes */
-  box-sizing: border-box; /* Asegura que el padding no altere el ancho total */
+  display: block; 
+  width: 100%; 
+  padding: 10px; 
+  box-sizing: border-box; 
   border: 1px solid #c2c2c2;
-  border-radius: 4px; /* Opcional: redondea las esquinas */
+  border-radius: 4px; 
 }
 
 .form-row {
@@ -451,7 +451,7 @@ h1 {
   background-color: #c7b394;
   color: #fff;
   padding: 20px 100px 20px 100px;
-  font-family: Arial, sans-serif;
+  font-family: "Cormorant", serif;
 }
 
 .footer a {
