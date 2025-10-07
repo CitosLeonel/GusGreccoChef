@@ -83,135 +83,114 @@
         </div>
       </nav>
     </header>
-    <main class="container py-5">
-      <h1>Photo Gallery</h1>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <a
-          href="/img/gallery/img1-large.jpg"
-          class="glightbox"
-          data-gallery="gallery1"
-          data-title="Nombre del plato"
-          data-description="Descripción breve de la imagen o plato."
-        >
-          <img
-            src="/img/gallery/img1-thumb.jpg"
-            class="img-fluid rounded shadow"
-            alt="Gallery image 1"
-            loading="lazy"
-          />
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <a
-          href="/img/gallery/img2-large.jpg"
-          class="glightbox"
-          data-gallery="gallery1"
-          data-title="Nombre del plato"
-          data-description="Descripción breve de la imagen o plato."
-        >
-          <img
-            src="/img/gallery/img2-thumb.jpg"
-            class="img-fluid rounded shadow"
-            alt="Gallery image 2"
-            loading="lazy"
-          />
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <a
-          href="/img/gallery/img3-large.jpg"
-          class="glightbox"
-          data-gallery="gallery1"
-          data-title="Nombre del plato"
-          data-description="Descripción breve de la imagen o plato."
-        >
-          <img
-            src="/img/gallery/img3-thumb.jpg"
-            class="img-fluid rounded shadow"
-            alt="Gallery image 3"
-            loading="lazy"
-          />
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <a
-          href="/img/gallery/img4-large.jpg"
-          class="glightbox"
-          data-gallery="gallery1"
-          data-title="Nombre del plato"
-          data-description="Descripción breve de la imagen o plato."
-        >
-          <img
-            src="/img/gallery/img4-thumb.jpg"
-            class="img-fluid rounded shadow"
-            alt="Gallery image 4"
-            loading="lazy"
-          />
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <a
-          href="/img/gallery/img1-large.jpg"
-          class="glightbox"
-          data-gallery="gallery1"
-          data-title="Nombre del plato"
-          data-description="Descripción breve de la imagen o plato."
-        >
-          <img
-            src="/img/gallery/img5-thumb.jpg"
-            class="img-fluid rounded shadow"
-            alt="Gallery image 5"
-            loading="lazy"
-          />
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <a
-          href="/img/gallery/img2-large.jpg"
-          class="glightbox"
-          data-gallery="gallery1"
-          data-title="Nombre del plato"
-          data-description="Descripción breve de la imagen o plato."
-        >
-          <img
-            src="/img/gallery/img6-thumb.jpg"
-            class="img-fluid rounded shadow"
-            alt="Gallery image 6"
-            loading="lazy"
-          />
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <a
-          href="/img/gallery/img3-large.jpg"
-          class="glightbox"
-          data-gallery="gallery1"
-          data-title="Nombre del plato"
-          data-description="Descripción breve de la imagen o plato."
-        >
-          <img
-            src="/img/gallery/img7-thumb.jpg"
-            class="img-fluid rounded shadow"
-            alt="Gallery image 7"
-            loading="lazy"
-          />
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <a
-          href="/img/gallery/img4-large.jpg"
-          class="glightbox"
-          data-gallery="gallery1"
-          data-title="Nombre del plato"
-          data-description="Descripción breve de la imagen o plato."
-        >
-          <img
-            src="/img/gallery/img4-thumb.jpg"
-            class="img-fluid rounded shadow"
-            alt="Gallery image 4"
-            loading="lazy"
-          />
-        </a>
+    <main>
+      <h1 class="gallery-title">Photo Gallery</h1>
+      <div class="row g-4 p-2 gallery-container">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-col">
+          <a
+            href="/img/gallery/img1-large.jpg"
+            class="glightbox"
+            data-gallery="gallery1"
+            data-glightbox="title: Nombre del plato; description: Descripción breve de la imagen o plato.; descPosition: bottom;"
+          >
+            <img
+              src="/img/gallery/img1-thumb.jpg"
+              class="img-fluid rounded shadow gallery-img"
+              alt="Gallery image 1"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-col">
+          <a
+            href="/img/gallery/img2-large.jpg"
+            class="glightbox"
+            data-gallery="gallery1"
+            data-glightbox="title: Nombre del plato; description: Descripción breve de la imagen o plato.; descPosition: bottom;"
+          >
+            <img
+              src="/img/gallery/img2-thumb.jpg"
+              class="img-fluid rounded shadow gallery-img"
+              alt="Gallery image 2"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-col">
+          <a
+            href="/img/gallery/img3-large.jpg"
+            class="glightbox"
+            data-gallery="gallery1"
+            data-glightbox="title: Nombre del plato; description: Descripción breve de la imagen o plato.; descPosition: bottom;"
+          >
+            <img
+              src="/img/gallery/img3-thumb.jpg"
+              class="img-fluid rounded shadow gallery-img"
+              alt="Gallery image 3"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-col">
+          <a
+            href="/img/gallery/img4-large.jpg"
+            class="glightbox"
+            data-gallery="gallery1"
+            data-glightbox="title: Nombre del plato; description: Descripción breve de la imagen o plato.; descPosition: bottom;"
+          >
+            <img
+              src="/img/gallery/img4-thumb.jpg"
+              class="img-fluid rounded shadow gallery-img"
+              alt="Gallery image 4"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-col">
+          <a
+            href="/img/gallery/img5-large.jpg"
+            class="glightbox"
+            data-gallery="gallery1"
+            data-glightbox="title: Nombre del plato; description: Descripción breve de la imagen o plato.; descPosition: bottom;"
+          >
+            <img
+              src="/img/gallery/img5-thumb.jpg"
+              class="img-fluid rounded shadow gallery-img"
+              alt="Gallery image 5"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-col">
+          <a
+            href="/img/gallery/img6-large.jpg"
+            class="glightbox"
+            data-gallery="gallery1"
+            data-glightbox="title: Nombre del plato; description: Descripción breve de la imagen o plato.; descPosition: bottom;"
+          >
+            <img
+              src="/img/gallery/img6-thumb.jpg"
+              class="img-fluid rounded shadow gallery-img"
+              alt="Gallery image 6"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-col">
+          <a
+            href="/img/gallery/img7-large.jpg"
+            class="glightbox"
+            data-gallery="gallery1"
+            data-glightbox="title: Nombre del plato; description: Descripción breve de la imagen o plato.; descPosition: bottom;"
+          >
+            <img
+              src="/img/gallery/img7-thumb.jpg"
+              class="img-fluid rounded shadow gallery-img"
+              alt="Gallery image 7"
+              loading="lazy"
+            />
+          </a>
+        </div>
       </div>
     </main>
     <!-- Footer -->
@@ -265,7 +244,9 @@
     </footer>
     <!-- Script Bootstrap --->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Script GLightbox Js & Full Year --->
+    <!-- Script GLightbox JS -->
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <!-- Script inicialización GLightbox Js & Full Year --->
     <script>
       const lightbox = GLightbox({ selector: ".glightbox" });
       document.getElementById("year").textContent = new Date().getFullYear();
