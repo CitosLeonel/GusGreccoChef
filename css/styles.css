@@ -40,7 +40,7 @@ main {
 
 .navbar-nav .nav-link {
   color: #ffffff !important;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding: 0.3rem 0.6rem;
   transition: all 0.3s ease;
 }
@@ -109,14 +109,14 @@ main {
   padding: 2rem;
   gap: 2rem;
   line-height: 1.6;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 h1 {
   color: #393d42;
 }
 .text1 {
-  max-width: 500px;
+  max-width: 600px;
   color: #393d42;
 }
 
@@ -142,11 +142,22 @@ h1 {
   gap: 0.6rem;
   color: #393d42;
   line-height: 1.6;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
+  padding: 2rem;
+}
+
+.title-text2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.1rem;
+  color: #393d42;
 }
 
 .text2 {
   margin-bottom: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* carousel */
@@ -203,15 +214,20 @@ h1 {
 
 .title-text3 {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 1.5rem;
   color: #393d42;
 }
 
 .text3 {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   line-height: 1.6;
   color: #393d42;
+}
+
+.btn {
+  padding: 0.5rem 1.1rem;
+  font-weight: bold;
 }
 
 /* Responsive ajustes para mobile */
@@ -334,7 +350,7 @@ h1 {
 
 .contact-form-text {
   color: #393d42;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   line-height: 1.6;
   margin-bottom: 30px;
   text-align: center;
