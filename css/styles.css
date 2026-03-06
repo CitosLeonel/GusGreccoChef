@@ -176,7 +176,7 @@ h1 {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #f2ebe2;
+  background: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -272,7 +272,7 @@ h1 {
 
 /* Tarjeta individual */
 .blog-post-card {
-  background: #fff;
+  background: #ffffff;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0,0,0,0.05);
@@ -353,7 +353,7 @@ h1 {
     align-items: center;
     justify-content: center;
     height: 100%;
-    background: #f2ebe2;
+    background: #ffffff;
   }
 
   .swiper-slide img {
@@ -393,7 +393,7 @@ h1 {
   box-sizing: border-box;
   margin: 80px;
   padding: 40px 100px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 
