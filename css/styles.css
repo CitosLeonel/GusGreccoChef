@@ -4,18 +4,18 @@
 
 html {
   scroll-behavior: smooth;
-  background: #f2ebe2;
+  background: #ffffff;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: "Cormorant", serif;
-  background: #f2ebe2;
+  background: #ffffff;
 }
 
 main {
-  background-color: #f2ebe2;
+  background-color: #ffffff;
   padding-top: 0;
 }
 
@@ -25,13 +25,13 @@ main {
   line-height: 1;
   margin: 0;
   padding: 2px 0;
-  color: #393d42;
+  color: #ffffff;
 }
 
 .navbar {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  background-color: #c7b394;
+  background-color: #393d42;
 }
 
 .navbar-nav {
@@ -47,7 +47,7 @@ main {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
-  color: #393d42 !important;
+  color: #ffffff !important;
   background-color: transparent !important;
   text-decoration: underline !important;
   transform: translateY(-2px);
@@ -95,6 +95,7 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center top;
   display: block;
   border-radius: 12px;
 }
@@ -230,6 +231,79 @@ h1 {
   font-weight: bold;
 }
 
+/* My Blog section */
+.blog-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  text-align: center;
+  box-sizing: border-box;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.text4-container {
+  max-width: 800px;
+}
+
+.title-text4 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #393d42;
+}
+
+.text4 {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #393d42;
+}
+
+/* Contenedor de las tarjetas */
+.blog-grid-dinamico {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Se adapta solo */
+  gap: 2rem;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+/* Tarjeta individual */
+.blog-post-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  text-align: left; /* El texto de la tarjeta queda mejor a la izquierda */
+}
+
+.blog-post-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-post-info {
+  padding: 1.5rem;
+}
+
+.blog-post-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #393d42;
+}
+
+.blog-link {
+  color: #393d42;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+
+
 /* Responsive ajustes para mobile */
 @media (max-width: 768px) {
   /* Profile section */
@@ -304,7 +378,6 @@ h1 {
     margin: 0 auto;
     text-align: center;
   }
-
 }
 
 @media (max-width: 400px) {
@@ -469,7 +542,9 @@ h1 {
 }
 
 .gallery-img {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   width: 100%;
   display: block;
   margin: 0 auto;
@@ -489,21 +564,23 @@ h1 {
 
 /* Footer styles */
 .footer {
-  background-color: #c7b394;
-  color: #fff;
+  background-color: #393d42;
+  color: #ffffff;
   padding: 20px 100px 20px 100px;
   font-family: "Cormorant", serif;
 }
 
 .footer a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
-  transition: color 0.3s, transform 0.3s;
+  transition:
+    color 0.3s,
+    transform 0.3s;
 }
 
 .footer a:hover {
   text-decoration: underline;
-  color: #393d42;
+  color: #ffffff;
   transform: translateY(-2px);
 }
 
