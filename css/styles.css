@@ -25,13 +25,13 @@ main {
   line-height: 1;
   margin: 0;
   padding: 2px 0;
-  color: #ffffff;
+  color: #393d42;
 }
 
 .navbar {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  background-color: #393d42;
+  background-color: #cefafe;
 }
 
 .navbar-nav {
@@ -39,7 +39,7 @@ main {
 }
 
 .navbar-nav .nav-link {
-  color: #ffffff !important;
+  color: #393d42 !important;
   font-size: 1.2rem;
   padding: 0.3rem 0.6rem;
   transition: all 0.3s ease;
@@ -47,7 +47,7 @@ main {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
-  color: #ffffff !important;
+  color: #393d42 !important;
   background-color: transparent !important;
   text-decoration: underline !important;
   transform: translateY(-2px);
@@ -593,14 +593,14 @@ h1 {
 
 /* Footer styles */
 .footer {
-  background-color: #393d42;
-  color: #ffffff;
+  background-color: #cefafe;
+  color: #393d42;
   padding: 20px 100px 20px 100px;
   font-family: "Cormorant", serif;
 }
 
 .footer a {
-  color: #ffffff;
+  color: #393d42;
   text-decoration: none;
   transition:
     color 0.3s,
@@ -609,7 +609,7 @@ h1 {
 
 .footer a:hover {
   text-decoration: underline;
-  color: #ffffff;
+  color: #393d42;
   transform: translateY(-2px);
 }
 
