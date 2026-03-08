@@ -59,33 +59,25 @@
           <a class="navbar-brand chef-name d-none d-lg-block mx-auto" href="#">
             Private Chef
           </a>
-
-          <!-- Menú -->
-          <div
-            class="collapse navbar-collapse justify-content-center"
-            id="navbarNavDropdown"
-          >
-            <ul class="navbar-nav text-center">
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#profile">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="/pages/services.html"
-                  >My Services</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="/pages/gallery.html"
-                  >Gallery</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="/pages/form.html"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
+        </div>
+        <!-- Menú -->
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#profile">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/services.html"
+                >My Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/pages/form.html">Contact</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
@@ -133,12 +125,21 @@
               flavorful as it is refined, warmth and depth.”
             </i>
           </p>
+
           <div class="text-center mt-4">
-            <a href="/pages/services.html" class="btn btn-outline-secondary">
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#servicesAccordion"
+              aria-expanded="false"
+              aria-controls="servicesAccordion"
+            >
               My Services
-            </a>
+            </button>
           </div>
         </div>
+
         <!-- gallery -->
         <div class="gallery-wrapper">
           <div class="row g-2 gallery-container row-cols-5 m-0">
@@ -579,7 +580,6 @@
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="/pages/services.html">My Services</a></li>
-            <li><a href="/pages/gallery.html">Gallery</a></li>
             <li><a href="/pages/form.html">Contact</a></li>
           </ul>
         </div>
