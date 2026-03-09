@@ -195,6 +195,12 @@ h1 {
   }
 }
 
+.my-services {
+  padding: 2rem;
+  margin: auto;
+}
+
+
 /* services section */
 .home-services-section {
   display: flex;
@@ -235,7 +241,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   text-align: center;
   box-sizing: border-box;
   max-width: 1400px;

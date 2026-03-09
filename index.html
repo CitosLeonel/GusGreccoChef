@@ -70,9 +70,7 @@
               <a class="nav-link text-white" href="#profile">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="/pages/services.html"
-                >My Services</a
-              >
+              <a class="nav-link text-white" href="#cuisine">My Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="/pages/form.html">Contact</a>
@@ -102,6 +100,7 @@
         </div>
       </section>
 
+      <!-- My cuisine -->
       <section id="cuisine" class="cuisine-roots-section">
         <div class="text2-container">
           <h2 class="title-text2">My Cuisine & My Roots</h2>
@@ -125,19 +124,6 @@
               flavorful as it is refined, warmth and depth.”
             </i>
           </p>
-
-          <div class="text-center mt-4">
-            <button
-              class="btn btn-outline-secondary"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#servicesAccordion"
-              aria-expanded="false"
-              aria-controls="servicesAccordion"
-            >
-              My Services
-            </button>
-          </div>
         </div>
 
         <!-- gallery -->
@@ -522,6 +508,43 @@
         </div>
       </section>
 
+      <section id="my-services" class="my-services">
+        <div>
+          <div class="text-center mt-4">
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#servicesAccordion"
+              aria-expanded="false"
+              aria-controls="servicesAccordion"
+            >
+              My Services
+            </button>
+          </div>
+          <div class="collapse w-100" id="servicesAccordion">
+            <div class="container-fluid py-4">
+              <div class="row justify-content-center g-4">
+                <div class="col-12 col-md-5">
+                  <img
+                    src="/img/services/services1.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Service 1"
+                  />
+                </div>
+                <div class="col-12 col-md-5">
+                  <img
+                    src="/img/services/services2.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Service 2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="home-services" class="home-services-section">
         <div class="text3-container">
           <h2 class="title-text3">
@@ -579,7 +602,7 @@
           <h3>Navigation</h3>
           <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="/pages/services.html">My Services</a></li>
+            <li><a href="#cuisine">My Services</a></li>
             <li><a href="/pages/form.html">Contact</a></li>
           </ul>
         </div>
