@@ -128,7 +128,7 @@ h1 {
   justify-content: space-between;
   min-height: 60vh;
   gap: 2rem;
-  padding: 4rem 2rem 2rem 2rem;
+  padding: 4rem 2rem 0rem 2rem;
   box-sizing: border-box;
   max-width: 1400px;
   margin: auto;
@@ -196,10 +196,9 @@ h1 {
 }
 
 .my-services {
-  padding: 2rem;
+  padding: 1rem;
   margin: auto;
 }
-
 
 /* services section */
 .home-services-section {
