@@ -53,6 +53,31 @@ main {
   transform: translateY(-2px);
 }
 
+.lang-switcher {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lang-switcher button {
+  background: none;
+  border: none;
+  color: #393d42;
+  cursor: pointer;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.lang-switcher button:hover {
+  opacity: 1;
+}
+
 /* Toggler (hamburguesa) */
 .navbar-toggler {
   border-color: rgba(255, 255, 255, 0.6);
@@ -195,13 +220,8 @@ h1 {
   }
 }
 
+/* My services */
 .my-services {
-  padding: 1rem;
-  margin: auto;
-}
-
-/* services section */
-.home-services-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,6 +247,36 @@ h1 {
   font-size: 1.4rem;
   line-height: 1.6;
   color: #393d42;
+  list-style: none;
+}
+
+/* Culinary Experiences */
+.home-services-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  text-align: center;
+  box-sizing: border-box;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.text4-container {
+  max-width: 800px;
+}
+
+.title-text4 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #393d42;
+}
+
+.text4 {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #393d42;
 }
 
 .btn {
@@ -247,18 +297,18 @@ h1 {
   margin: auto;
 }
 
-.text4-container {
+.text5-container {
   max-width: 800px;
 }
 
-.title-text4 {
+.title-text5 {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
   color: #393d42;
 }
 
-.text4 {
+.text5 {
   font-size: 1.4rem;
   line-height: 1.6;
   color: #393d42;
@@ -372,14 +422,14 @@ h1 {
     padding: 1rem;
   }
 
-  /* Services section */
+  /* Culinary Experiences */
   .home-services-section {
     padding: 0.1rem 1rem 1rem 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
   }
 
-  .text3-container {
+  .text4-container {
     width: 100%;
     max-width: none;
     margin: 0 auto;

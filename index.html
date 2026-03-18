@@ -67,15 +67,35 @@
         >
           <ul class="navbar-nav text-center">
             <li class="nav-item">
-              <a class="nav-link text-white" href="#profile">Home</a>
+              <a
+                class="nav-link text-white"
+                href="#profile"
+                data-i18n="nav.home"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#cuisine">My Services</a>
+              <a
+                class="nav-link text-white"
+                href="#cuisine"
+                data-i18n="nav.services"
+                >My Services</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="/pages/form.html">Contact</a>
+              <a
+                class="nav-link text-white"
+                href="/pages/form.html"
+                data-i18n="nav.contact"
+                >Contact</a
+              >
             </li>
           </ul>
+        </div>
+        <div class="lang-switcher">
+          <button onclick="loadLanguage('en')">EN</button>
+          <span>|</span>
+          <button onclick="loadLanguage('es')">ES</button>
         </div>
       </nav>
     </header>
@@ -92,7 +112,7 @@
         </div>
         <div class="text1-container">
           <h1>Gus Grecco</h1>
-          <p class="text1">
+          <p class="text1" data-i18n="hero.text1">
             I'm an Argentinian chef with experience cooking worldwide, having a
             solid background in high-end and michelin rated restaurants, as well
             as a Private chef for UHNW clients between Madrid and New York.
@@ -103,14 +123,16 @@
       <!-- My cuisine -->
       <section id="cuisine" class="cuisine-roots-section">
         <div class="text2-container">
-          <h2 class="title-text2">My Cuisine & My Roots</h2>
-          <p class="text2">
+          <h2 class="title-text2" data-i18n="cuisine.title-text2">
+            My Cuisine & My Roots
+          </h2>
+          <p class="text2" data-i18n="cuisine.text2-1">
             <i
               >"Seasonality, culture, and travel have shaped the chef I am
               today."</i
             >
           </p>
-          <p class="text2">
+          <p class="text2" data-i18n="cuisine.text2-2">
             Rooted in Argentina, shaped by Italian-Spanish heritage,Criollo &
             Mediterranean flavors are core in my cooking. Traveling and training
             across South America and Europe, working alongside chefs from around
@@ -118,7 +140,7 @@
             Italian,Spanish & Asian, have been central in my craft surprising
             clients worldwide.
           </p>
-          <p class="text2">
+          <p class="text2" data-i18n="cuisine.text2-3">
             <i>
               “Grounded in a deep respect for seasonality, my cooking is as
               flavorful as it is refined, warmth and depth.”
@@ -509,59 +531,54 @@
       </section>
 
       <section id="my-services" class="my-services">
-        <div>
+        <div class="text3-container">
+          <h2 class="title-text3" data-i18n="myServices.title-text3">
+            My Services
+          </h2>
+          <h3 class="subtitle-text3" data-i18n="myServices.subtitle-text3">
+            DESIGN YOUR PRIVATE EXPERIENCE
+          </h3>
+          <p class="text3" data-i18n="myServices.text3">
+            I invite you to a personal consultation to discuss your upcoming
+            event. From the initial concept to the final garnish, I am at your
+            disposal to curate every detail of your bespoke culinary experience.
+          </p>
+          <ul class="text3">
+            <li data-i18n="myServices.li1">Response within 24 hours.</li>
+            <li data-i18n="myServices.li2">Confidential consultation.</li>
+            <li data-i18n="myServices.li3">Global availability.</li>
+          </ul>
+
           <div class="text-center mt-4">
-            <button
-              class="btn btn-outline-secondary"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#servicesAccordion"
-              aria-expanded="false"
-              aria-controls="servicesAccordion"
-            >
+            <button class="btn btn-outline-secondary" data-i18n="">
               My Services
             </button>
-          </div>
-          <div class="collapse w-100" id="servicesAccordion">
-            <div class="container-fluid py-4">
-              <div class="row justify-content-center g-4">
-                <div class="col-12 col-md-5">
-                  <img
-                    src="/img/services/services1.jpg"
-                    class="img-fluid rounded shadow"
-                    alt="Service 1"
-                  />
-                </div>
-                <div class="col-12 col-md-5">
-                  <img
-                    src="/img/services/services2.jpg"
-                    class="img-fluid rounded shadow"
-                    alt="Service 2"
-                  />
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
 
       <section id="home-services" class="home-services-section">
-        <div class="text3-container">
-          <h2 class="title-text3">
+        <div class="text4-container">
+          <h2 class="title-text4" data-i18n="bookMe.title-text4">
             Tailored Culinary Experiences & Special Health-Oriented Meals
           </h2>
-          <p class="text3">
+          <p class="text4" data-i18n="bookMe.text4-1">
             Whether you need a private chef for executive meals, special
             occasions, or family-style dining, we are happy to arrange
             short-term bookings by the day or longer stays throughout Spain or
             across Europe.
-            <br />
+          </p>
+          <p class="text4" data-i18n="bookMe.text4-2">
             If your needs are more health-oriented, we have extensive experience
             designing menus for high performers, nutritional goals, and specific
             diets with excellent results.
           </p>
           <div class="text-center mt-4">
-            <a href="/pages/form.html" class="btn btn-outline-secondary">
+            <a
+              href="/pages/form.html"
+              class="btn btn-outline-secondary"
+              data-i18n="bookMe.btn2"
+            >
               BOOK ME
             </a>
           </div>
@@ -570,9 +587,11 @@
 
       <!-- My Blog -->
       <section id="my-blog" class="blog-section">
-        <div class="text4-container">
-          <h2 class="title-text4">My blog</h2>
-          <p class="text4">Here you can read my latest articles...</p>
+        <div class="text5-container">
+          <h2 class="title-text5" data-i18n="sblog.title-text5">My blog</h2>
+          <p class="text5" data-i18n="blog.text5">
+            Here you can read my latest articles...
+          </p>
         </div>
         <div id="blog-container" class="blog-grid-dinamico"></div>
       </section>
@@ -584,7 +603,7 @@
       <div class="footer-top">
         <!-- Columna izquierda -->
         <div class="footer-col">
-          <h3>Contact Info</h3>
+          <h3 data-i18n="footer.contact">Contact Info</h3>
           <p>
             <a href="https://wa.me/34647251126" target="_blank"
               >+34 647 25 11 26</a
@@ -599,17 +618,19 @@
 
         <!-- Columna central -->
         <div class="footer-col footer-col-center">
-          <h3>Navigation</h3>
+          <h3 data-i18n="footer.navi">Navigation</h3>
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#cuisine">My Services</a></li>
-            <li><a href="/pages/form.html">Contact</a></li>
+            <li><a href="#home" data-i18n="nav.home">Home</a></li>
+            <li><a href="#cuisine" data-i18n="nav.services">My Services</a></li>
+            <li>
+              <a href="/pages/form.html" data-i18n="nav.contact">Contact</a>
+            </li>
           </ul>
         </div>
 
         <!-- Columna derecha -->
         <div class="footer-col footer-col-right">
-          <h3>Follow Me</h3>
+          <h3 data-i18n="footer.ig">Follow Me</h3>
           <a href="https://instagram.com/gusgreccochef/" target="_blank">
             <i class="bi bi-instagram"></i> Instagram
           </a>
@@ -618,12 +639,12 @@
 
       <!-- Parte inferior -->
       <div class="footer-bottom">
-        <p>
+        <p data-i18n="footer.rights">
           &copy; <span id="year"></span> Gustavo Grecco. All rights reserved.
         </p>
         <p>
-          <a href="#">Privacy Policy</a> |
-          <a href="#">Terms and Conditions</a>
+          <a href="#" data-i18n="footer.PP">Privacy Policy</a> |
+          <a href="#" data-i18n="footer.t&c">Terms and Conditions</a>
         </p>
       </div>
     </footer>
@@ -639,6 +660,7 @@
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
     <!-- Script Main Js --->
+    <script src="js/i18n.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

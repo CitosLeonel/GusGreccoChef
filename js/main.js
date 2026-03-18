@@ -12,11 +12,13 @@ document.addEventListener("DOMContentLoaded", function () {
   // ---- Fechas (Flatpickr) ---- //
   const dateInput = document.querySelector("#preferred-dates");
   if (dateInput) {
+    const lang = localStorage.getItem("lang") || "en";
+
     flatpickr(dateInput, {
       mode: "range",
       dateFormat: "d/m/Y",
       minDate: "today",
-      locale: "en",
+      locale: lang,
     });
   }
 });

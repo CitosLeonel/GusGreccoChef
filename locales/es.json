@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+
+  "hero": {
+    "text1": "Soy un chef argentino con experiencia cocinando en todo el mundo, con una sólida trayectoria en restaurantes de alta gama y con estrellas Michelin, así como chef privado para clientes UHNW entre Madrid y Nueva York."
+  },
+
+  "cuisine": {
+    "title-text2": "Mi Cocina & Mis Raíces",
+    "text2-1": "\"La estacionalidad, la cultura y los viajes han moldeado al chef que soy hoy.\"",
+    "text2-2": "Arraigado en Argentina y forjado por una herencia italo-española, los sabores Criollos y Mediterráneos son el núcleo de mi cocina. Viajando y formándome a lo largo de Sudamérica y Europa, trabajando junto a chefs de todo el mundo, he desarrollado un gran dominio de las cocinas fusión: Latina, Italiana, Española y Asiática, que han sido centrales en mi oficio sorprendiendo a clientes en todo el mundo.",
+    "text2-3": "\"Con un profundo respeto por la estacionalidad, mi cocina es tan sabrosa como refinada, con calidez y profundidad.\""
+  },
+
+  "myServices": {
+    "title-text3": "Mis Servicios",
+    "subtitle-text3": "DISEÑA TU EXPERIENCIA PRIVADA",
+    "text3": "Te invito a una consulta personal para conversar sobre tu próximo evento. Desde el concepto inicial hasta el último detalle de emplatado, estoy a tu disposición para curar cada aspecto de tu experiencia culinaria a medida.",
+    "li1": "Respuesta en menos de 24 horas.",
+    "li2": "Consulta confidencial.",
+    "li3": "Disponibilidad global."
+  },
+
+  "bookMe": {
+    "title-text4": "Experiencias Culinarias a Medida & Menús con Enfoque en la Salud",
+    "text4-1": "Ya sea que necesites un chef privado para comidas ejecutivas, ocasiones especiales o cenas familiares, estamos disponibles para estadías cortas por día o estadías más prolongadas en España o en toda Europa.",
+    "text4-2": "Si tus necesidades tienen un enfoque más orientado a la salud, contamos con amplia experiencia diseñando menús para personas de alto rendimiento, objetivos nutricionales y dietas específicas, con excelentes resultados.",
+    "btn2": "CONTACTAME"
+  },
+
+  "blog": {
+    "title-text5": "Mi Blog",
+    "text5": "Aquí podés leer mis últimos artículos..."
+  },
+
+  "footer": {
+    "contact": "Información de contacto",
+    "navi": "Navegación",
+    "ig": "Sígueme",
+    "rights": "Gustavo Grecco. Todos los derechos reservados",
+    "PP": "Política de Privacidad",
+    "t&c": "Términos y Condiciones"
+  },
+
+  "contact": {
+    "form-title": "Contratame como tu Chef Privado para tu preparación de comidas especiales, próximo evento o experiencia gastronómica en casa.",
+    "form-text": "Compartí algunos detalles sobre tu ocasión a continuación - yo me encargo del resto, creando un servicio personalizado adaptado a tus necesidades."
+  },
+
+  "form": {
+    "name": "Nombre completo:",
+    "phone": "Teléfono:",
+    "city": "Ciudad:",
+    "country": "País:",
+    "date": "Fecha(s) Preferida(s):",
+    "details": "Contanos Sobre tu Evento:",
+    "notes": "Notas Adicionales (opcional):",
+    "consent": "Al marcar esta casilla, acepto recibir mensajes SMS relacionados con mi consulta, incluyendo disponibilidad del chef, confirmaciones de eventos y recordatorios de citas. Pueden aplicarse tarifas de mensajes y datos. Respondé STOP para cancelar la suscripción.",
+    "btn": "Enviar respuesta"
+  }
+}

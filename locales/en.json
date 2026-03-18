@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "text1": "I'm an Argentinian chef with experience cooking worldwide, having a solid background in high-end and michelin rated restaurants, as well as a Private chef for UHNW clients between Madrid and New York."
+  },
+
+  "cuisine": {
+    "title-text2": "My Cuisine & My Roots",
+    "text2-1": "\"Seasonality, culture, and travel have shaped the chef I am today.\"",
+    "text2-2": "Rooted in Argentina, shaped by Italian-Spanish heritage,Criollo & Mediterranean flavors are core in my cooking. Traveling and training across South America and Europe, working alongside chefs from around the globe, I've accomplished great skill in cross cuisines: Latino, Italian,Spanish & Asian, have been central in my craft surprising clients worldwide.",
+    "text2-3": "\"Grounded in a deep respect for seasonality, my cooking is as flavorful as it is refined, warmth and depth.\""
+  },
+
+  "myServices": {
+    "title-text3": "My Services",
+    "subtitle-text3": "DESIGN YOUR PRIVATE EXPERIENCE",
+    "text3": "I invite you to a personal consultation to discuss your upcoming event. From the initial concept to the final garnish, I am at your disposal to curate every detail of your bespoke culinary experience.",
+    "li1": "Response within 24 hours.",
+    "li2": "Confidential consultation.",
+    "li3": "Global availability."
+  },
+
+  "bookMe": {
+    "title-text4": "Tailored Culinary Experiences & Special Health-Oriented Meals",
+    "text4-1": "Whether you need a private chef for executive meals, special occasions, or family-style dining, we are happy to arrange short-term bookings by the day or longer stays throughout Spain or across Europe.",
+    "text4-2": "If your needs are more health-oriented, we have extensive experience designing menus for high performers, nutritional goals, and specific diets with excellent results.",
+    "btn2": "BOOK ME"
+  },
+
+  "blog": {
+    "title-text5": "My Blog",
+    "text5": "Here you can read my latest articles..."
+  },
+
+  "footer": {
+    "contact": "Contact Info",
+    "navi": "Navigation",
+    "ig": "Follow Me",
+    "rights": "Gustavo Grecco. All rights reserved",
+    "PP": "Privacy Policy",
+    "t&c": "Terms and Conditions"
+  },
+
+  "contact": {
+    "form-title": "Book me as your Private Chef for Your special meal prep needs, Next Event or In-Home Dining Experience.",
+    "form-text": "Share a few details about your occasion below - I'll do the rest, crafting a personalized service tailored to your needs."
+  },
+
+  "form": {
+    "name": "Full Name:",
+    "phone": "Phone:",
+    "city": "City:",
+    "country": "Country:",
+    "date": "Preferred Date(s)::",
+    "details": "Tell Us About your Event:",
+    "notes": "Additional Notes (optional):",
+    "consent": "By checking this box, I agree to receive SMS messages related to my inquiry, including chef availability, event confirmations, and appointment reminders. Message & data rates may apply. Reply STOP to unsubscribe.",
+    "btn": "Send request"
+  }
+}
