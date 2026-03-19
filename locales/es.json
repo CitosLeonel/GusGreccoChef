@@ -6,29 +6,29 @@
   },
 
   "hero": {
-    "text1": "Soy un chef argentino con experiencia cocinando en todo el mundo, con una sólida trayectoria en restaurantes de alta gama y con estrellas Michelin, así como chef privado para clientes UHNW entre Madrid y Nueva York."
+    "text1": "Chef argentino con trayectoria internacional en restaurantes de alta gama y con estrella Michelin. Actualmente especualizado como chef para clientes UHNW entre Madrid y Nueva York."
   },
 
   "cuisine": {
     "title-text2": "Mi Cocina & Mis Raíces",
-    "text2-1": "\"La estacionalidad, la cultura y los viajes han moldeado al chef que soy hoy.\"",
-    "text2-2": "Arraigado en Argentina y forjado por una herencia italo-española, los sabores Criollos y Mediterráneos son el núcleo de mi cocina. Viajando y formándome a lo largo de Sudamérica y Europa, trabajando junto a chefs de todo el mundo, he desarrollado un gran dominio de las cocinas fusión: Latina, Italiana, Española y Asiática, que han sido centrales en mi oficio sorprendiendo a clientes en todo el mundo.",
-    "text2-3": "\"Con un profundo respeto por la estacionalidad, mi cocina es tan sabrosa como refinada, con calidez y profundidad.\""
+    "text2-1": "\"La estacionalidad, la cultura y los viajes definien mi cocina.\"",
+    "text2-2": "Con raíces argentinas y herencia italo-española, mi propuesta se apoyaa en una base sólida de sabores criollos y mediterráneos. Mi recorrido por Sudamérica y Europa, trabajando junto a chefs de distintas culturas y grandísimo nivel, me ha permitido desarrollar una cocina versátil y refinada, donde conviven influencias latina, española y asiática.",
+    "text2-3": "\"Trabajo desde el producto, respetando la temporada y el origen, para crear platos equilibrados, con el sabor como seña e identidad.\""
   },
 
   "myServices": {
     "title-text3": "Mis Servicios",
     "subtitle-text3": "DISEÑA TU EXPERIENCIA PRIVADA",
-    "text3": "Te invito a una consulta personal para conversar sobre tu próximo evento. Desde el concepto inicial hasta el último detalle de emplatado, estoy a tu disposición para curar cada aspecto de tu experiencia culinaria a medida.",
+    "text3": "Te invito a una consulta personal para diseñar tu próxima experiencia. Desde la idea inicial hasta el último detalle en mesa, cada servicio se construye a medida.",
     "li1": "Respuesta en menos de 24 horas.",
     "li2": "Consulta confidencial.",
     "li3": "Disponibilidad global."
   },
 
   "bookMe": {
-    "title-text4": "Experiencias Culinarias a Medida & Menús con Enfoque en la Salud",
-    "text4-1": "Ya sea que necesites un chef privado para comidas ejecutivas, ocasiones especiales o cenas familiares, estamos disponibles para estadías cortas por día o estadías más prolongadas en España o en toda Europa.",
-    "text4-2": "Si tus necesidades tienen un enfoque más orientado a la salud, contamos con amplia experiencia diseñando menús para personas de alto rendimiento, objetivos nutricionales y dietas específicas, con excelentes resultados.",
+    "title-text4": "Experiencias & Enfoque Nutricional",
+    "text4-1": "Servicios de chef privado con amplia experiencia en lunch ejecutivos de alto nivel, cenas especiales y entorno familiar. Disponibilidad para servicios puntuales o estancias prolongadas en España y Europa.",
+    "text4-2": "Desarrollo preciso de propuestas con enfoque en salud y rendimiento: menús personalizados adaptados a objetivos nutricionales, rutinas exigentes y requerimientos especificos, sin comprometer el nivel gastronómico.",
     "btn2": "CONTACTAME"
   },
 
