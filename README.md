@@ -92,7 +92,7 @@ Este sitio fue desarrollado como proyecto freelance para el chef **Gustavo Grecc
 
 ## 👨‍💻 Desarrollador
 
-**Leonel Citos**
+**Leonel Martin Mezanzano**
 - GitHub: [@CitosLeonel](https://github.com/CitosLeonel)
 
 ---
